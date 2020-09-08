@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.20",
+    "mysql2": "^2.1.0",
+    "node-windows": "^1.0.0-beta.5",
+    "puppeteer": "^5.2.1",
+    "sequelize": "^6.3.4",
+    "tedious": "^9.2.1"
+  },
+  "license": "MIT",
+  "main": "Index.js",
+  "name": "rede-integrada-service",
+  "scripts": {
+    "start": "node Index.js",
+    "install:service": "node ./Config/InstallService.js",
+    "uninstall:service": "node ./Config/UninstalService.js"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "eslint": "^7.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.11.0"
+  }
+}
