@@ -2,7 +2,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "mysql2": "^2.1.0",
     "node-windows": "^1.0.0-beta.5",
     "puppeteer": "^5.2.1",
